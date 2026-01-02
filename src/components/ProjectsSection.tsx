@@ -14,16 +14,6 @@ const projects = [
     featured: true,
   },
   {
-    title: 'Eco Voice',
-    subtitle: 'Carbon Footprint Calculator & Sustainability Guide',
-    description: 'Comprehensive environmental impact assessment platform that helps users calculate their carbon footprint through daily activities, transportation, and consumption patterns. Features personalized reduction strategies and a curated marketplace of sustainable products for eco-conscious living.',
-    tech: ['React.js', 'Node.js', 'MongoDB', 'AI/ML', 'REST APIs'],
-    icon: Leaf,
-    highlights: ['Carbon footprint tracking', 'Sustainable product recommendations', 'Personalized eco-tips', 'Impact visualization'],
-    github: 'https://github.com/Balasubramanyam-Chilukala/Eco-Voice',
-    featured: true,
-  },
-  {
     title: 'VoiceBridge',
     subtitle: 'Real-Time Meeting Translator',
     description: 'Built a 4-thread async pipeline for bidirectional translation with 3-6 second latency, supporting 13+ languages including Indian regional languages.',
@@ -31,6 +21,7 @@ const projects = [
     icon: Zap,
     highlights: ['4-thread async pipeline', 'Echo prevention system', 'Auto-reconnection handling'],
     github: 'https://github.com/Balasubramanyam-Chilukala/VoiceBridge',
+    featured: true,
   },
   {
     title: 'Pocket Planner',
@@ -49,6 +40,15 @@ const projects = [
     icon: Brain,
     highlights: ['AI-powered analysis', '50K+ course database', 'Personalized recommendations'],
     github: 'https://github.com/Balasubramanyam-Chilukala/Skill-Craft',
+  },
+  {
+    title: 'Eco Voice',
+    subtitle: 'Carbon Footprint Calculator & Sustainability Guide',
+    description: 'Comprehensive environmental impact assessment platform that helps users calculate their carbon footprint through daily activities, transportation, and consumption patterns. Features personalized reduction strategies and a curated marketplace of sustainable products for eco-conscious living.',
+    tech: ['React.js', 'Node.js', 'MongoDB', 'AI/ML', 'REST APIs'],
+    icon: Leaf,
+    highlights: ['Carbon footprint tracking', 'Sustainable product recommendations', 'Personalized eco-tips', 'Impact visualization'],
+    github: 'https://github.com/Balasubramanyam-Chilukala/Eco-Voice',
   },
 ];
 
